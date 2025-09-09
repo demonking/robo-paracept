@@ -13,7 +13,6 @@ class ExampleBTest extends TestCase
     #[Group('bar')]
     #[PHPUnitGroup('example')]
     #[Depends('testB')]
-
     public function testA(): void
     {
         $this->assertTrue(false);
